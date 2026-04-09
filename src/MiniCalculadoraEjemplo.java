@@ -20,6 +20,15 @@ public class MiniCalculadoraEjemplo {
     public double raizCuadrada(double numero){
         return Math.sqrt(numero);
     }
+    /**
+     * Metodo que devuelve el valor absoluto del valor pasado al metodo usando la biblioteca Math
+     *
+     * @author Daniel
+     * @version 1.0
+     * @param numero
+     * @return Valor absoluto del parametro pasado
+     * @since 09-04-2026
+     */
     public double absoluto(double numero){
         return Math.abs(numero);
     }
